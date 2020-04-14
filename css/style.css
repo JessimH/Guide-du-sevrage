@@ -1,0 +1,792 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+html {
+    box-sizing: border-box
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit
+}
+
+img,
+video {
+    width: 100%;
+    vertical-align: middle;
+}
+
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Cabin', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    margin: 0;
+}
+
+h3,
+h4 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.text>p {
+    margin: 50px 0 0 0;
+    line-height: 1.5;
+}
+
+.block {
+    display: flex;
+}
+
+.text {
+    width: 60%;
+}
+
+.block-text {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 50%;
+}
+
+.block-talk {
+    background: #000000;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block-talk>h4 {
+    color: #ffffff;
+    margin: 0;
+    padding: 40px 0 20px 0;
+}
+
+hr {
+    width: 92%;
+    border: 2px solid #ffffff;
+}
+
+.block-talk>p {
+    color: #ffffff;
+    width: 90%;
+    line-height: 1.3;
+}
+
+
+/*CSS NATHAN*/
+
+.welcome {
+    background-color: #222222;
+}
+
+.welcome h1 {
+    color: #fff;
+    font-size: 49px;
+    font-weight: normal!important;
+    text-transform: uppercase;
+    margin-top: 230px;
+}
+
+.strong {
+    font-weight: bold!important;
+}
+
+.button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myButton {
+    background-color: #ffffff;
+    border-radius: 28px;
+    border: 1px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-size: 19px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 152px;
+    margin-top: 126px;
+}
+
+.myButton:hover {
+    background-color: #ffffff;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.accompanying h1 {
+    font-size: 46px;
+    color: #050505;
+    opacity: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps hr {
+    align-self: center;
+    width: 80px;
+    height: 2px;
+    background-color: lightgray;
+    border: none;
+    margin: 30px;
+}
+
+.steps {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps .square {
+    width: 150px;
+    height: 150px;
+    border: 7px solid #000000;
+    opacity: 1;
+    margin-top: 112px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.steps .square .number {
+    color: #050505;
+    font-size: 47px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 35%;
+}
+
+.text_steps {
+    color: #050505;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.all_text_steps {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 118px;
+}
+
+.text_steps_1 {
+    margin-right: 94px;
+}
+
+.text_steps_2 {
+    margin-right: 79px;
+}
+
+.text_steps_3 {
+    margin-right: 81px;
+}
+
+
+/*CSS JESSIM*/
+
+.A-venir {
+    padding: 0;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.A-venir h2 {
+    margin-bottom: 30px;
+}
+
+.icon-txt {
+    width: 1200px;
+    padding: 0;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.icon-template {
+    margin: 70px;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.star {
+    width: 142px;
+    height: 210px;
+    background: transparent url('../img/star.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.nico {
+    width: 122px;
+    height: 210px;
+    background: transparent url('../img/nicotine-patch.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.layout {
+    width: 182px;
+    height: 182px;
+    background: transparent url('../img/layout.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.txt1 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    font-size: 30@px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.txt2 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 214px;
+    height: 110px;
+    text-align: center;
+    font-size: 30@px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.txt3 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 202px;
+    height: 110px;
+    text-align: center;
+    font-size: 30@px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.questionnaire {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    height: 792px;
+    background-color: black;
+    color: white;
+}
+
+.Buttondiv {
+    border-top: 5px solid white;
+    width: 1200px;
+    padding: 0;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.questionnaire a.b1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    width: 536px;
+    height: 105px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 7px;
+    opacity: 1;
+    margin: 30px;
+    font-size: 36px;
+}
+
+.questionnaire a.b2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    width: 536px;
+    height: 105px;
+    background: black 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 7px;
+    opacity: 1;
+    margin: 30px;
+    font-size: 36px;
+}
+
+.form {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    margin-bottom: 20px;
+    font-size: 29px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+textarea::placeholder {
+    font-size: 29px;
+    color: black;
+}
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    width: 950px;
+}
+
+.nom {
+    padding: 20px;
+    width: 438px;
+    height: 88px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #000000;
+    opacity: 1;
+}
+
+.email {
+    padding: 20px;
+    width: 438px;
+    height: 88px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #000000;
+    opacity: 1;
+}
+
+.firstname {
+    padding: 20px;
+    width: 439px;
+    height: 88px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #000000;
+    opacity: 1;
+}
+
+.subject {
+    padding: 20px;
+    width: 439px;
+    height: 89px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #000000;
+    opacity: 1;
+}
+
+.message {
+    padding: 20px;
+    width: 945px;
+    height: 209px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #000000;
+    opacity: 1;
+}
+
+.envoyer {
+    margin-top: 50px;
+    width: 298px;
+    height: 62px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border: 1px solid #000000;
+    opacity: 1;
+    border-radius: 20px;
+    color: white
+}
+
+footer {
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    font-size: 20px;
+    margin: 60px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Les-Fait {
+    padding: 0;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Les-Fait .A-venir h2 {
+    margin-bottom: 30px;
+}
+
+.Les-Fait .icon-txt {
+    width: 1200px;
+    padding: 0;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid white;
+}
+
+.Les-Fait .icon-template {
+    padding: 0;
+    margin: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Les-Fait .icon {
+    width: 136px;
+    height: 161px;
+    background: transparent url('../img/icon.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.Les-Fait .smoker {
+    width: 160px;
+    height: 160px;
+    background: transparent url('../img/smoker.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.Les-Fait .cigarettes {
+    width: 168px;
+    height: 155px;
+    background: transparent url('../img/cigarretes\ \(1\).svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.Les-Fait .txt1 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 150px;
+    height: 110px;
+    text-align: center;
+    font: 30px;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 1;
+}
+
+.Les-Fait .txt2 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 214px;
+    height: 110px;
+    text-align: center;
+    font: 30px;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 1;
+}
+
+.Les-Fait .txt3 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 202px;
+    height: 110px;
+    text-align: center;
+    font: 30px;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 1;
+}
+
+/* Header */
+.dom-header {
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    position:fixed;
+}
+.banner {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.banner h1 {
+    font-size: 35px;
+    font-weight: normal;
+}
+.banner p {
+    font-weight: lighter;
+}
+.header-btn {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.header-btn > a.b1 {
+    background-color: white;
+    color: black;
+    border: 1px solid #707070;
+    border-radius: 7px;
+    cursor:pointer;
+    width: 276px;
+    height: 54px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.header-btn > a.b2 {
+    background-color: black;
+    color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+    cursor:pointer;
+    width: 276px;
+    height: 54px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.nav-bar {
+    width: 100vw;
+    height: 80px;
+    background-color: black;
+    color:white;
+    border-bottom: 1px solid white;
+    font-size: 35px;
+    font-weight: bolder;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar ul {
+    margin:0;
+    padding: 0;
+}
+.nav-bar li {
+    display:inline;
+}
+/* Obligatoire pour que la nav-bar n'empiète pas sur le reste du code
+ c'est réglable en JS */
+main {
+    padding-top:234px;
+}
